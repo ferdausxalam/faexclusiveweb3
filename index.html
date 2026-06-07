@@ -1,93 +1,76 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FA Exclusive Web3 Premium Store</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #121212;
-            color: #ffffff;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            padding: 40px 20px;
-            background-color: #1a1a1a;
-            border-bottom: 2px solid #ff4500;
-        }
-        .header-title {
-            font-size: 2.5rem;
-            color: #ff9800;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-        .header-subtitle {
-            font-size: 1.2rem;
-            color: #bbbbbb;
-            margin-bottom: 30px;
-        }
-        .services-container {
-            display: flex;
-            justify-content: center;
-            gap: 40px;
-            margin-top: 30px;
-            flex-wrap: wrap;
-        }
-        .service-box {
-            background-color: #2a2a2a;
-            padding: 20px 40px;
-            border-radius: 10px;
-            border: 2px solid #ff4500;
-            width: 250px;
-            transition: 0.3s;
-        }
-        .service-box:hover {
-            background-color: #ff4500;
-            transform: translateY(-5px);
-        }
-        .service-title {
-            font-size: 1.8rem;
-            color: #ffffff;
-            margin-bottom: 15px;
-            font-weight: bold;
-        }
-        .order-btn {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            font-size: 1rem;
-            cursor: pointer;
-            text-decoration: none;
-            display: inline-block;
-        }
-        .order-btn:hover {
-            background-color: #45a049;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FA Premium Store - সস্তায় প্রিমিয়াম একাউন্ট</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; background: #f0f4ff; margin: 0; color: #222; }
+    header { background: linear-gradient(135deg, #1e40af, #3b82f6); color: white; text-align: center; padding: 60px 20px; }
+    h1 { margin: 0; font-size: 2.8rem; }
+    .tagline { font-size: 1.3rem; opacity: 0.95; margin-top: 10px; }
+    .container { max-width: 1100px; margin: 30px auto; padding: 0 20px; }
+    .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+    .card { background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 10px 20px rgba(0,0,0,0.08); transition: all 0.3s; }
+    .card:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0,0,0,0.12); }
+    .card img { width: 100%; height: 160px; object-fit: cover; }
+    .card-body { padding: 20px; }
+    .card h3 { margin: 0 0 10px 0; color: #1e40af; }
+    .price { font-size: 1.6rem; font-weight: bold; color: #16a34a; margin: 10px 0; }
+    .btn { display: block; text-align: center; background: #1e40af; color: white; padding: 14px; border-radius: 8px; text-decoration: none; font-weight: bold; margin-top: 15px; }
+    .btn:hover { background: #2563eb; }
+    footer { text-align: center; padding: 30px; background: #1e40af; color: white; margin-top: 50px; }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>FA Premium Store</h1>
+    <p class="tagline">সব প্রিমিয়াম একাউন্ট একদম সস্তায়</p>
+  </header>
 
-<header>
-    <div class="header-title">FA Exclusive Web3 Premium Store</div>
-    <div class="header-subtitle">আমরা আপনাকে সার্ভিস প্রোভাইড করি</div>
-    
-    <div class="services-container">
-        <div class="service-box">
-            <div class="service-title">Twitter Premium</div>
-            <a href="#" class="order-btn">অর্ডার করুন</a>
+  <div class="container">
+    <h2 style="text-align:center; color:#1e40af;">আমাদের প্রোডাক্টসমূহ</h2>
+    <div class="product-grid">
+      <div class="card">
+        <img src="https://i.ibb.co.com/0jK5XjV/youtube.jpg" alt="YouTube">
+        <div class="card-body">
+          <h3>YouTube Premium</h3>
+          <p class="price">৳১২৯</p>
+          <a href="#" class="btn">কিনুন এখনই</a>
         </div>
-        
-        <div class="service-box">
-            <div class="service-title">Telegram Premium</div>
-            <a href="#" class="order-btn">অর্ডার করুন</a>
+      </div>
+      
+      <div class="card">
+        <img src="https://i.ibb.co.com/5Y0vKxY/chatgpt.jpg" alt="ChatGPT">
+        <div class="card-body">
+          <h3>ChatGPT Plus</h3>
+          <p class="price">৳১৪৯</p>
+          <a href="#" class="btn">কিনুন এখনই</a>
         </div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.ibb.co.com/8XzYv3K/twitter.jpg" alt="X Premium">
+        <div class="card-body">
+          <h3>X Premium (Twitter Blue)</h3>
+          <p class="price">৳১১৯</p>
+          <a href="#" class="btn">কিনুন এখনই</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.ibb.co.com/4W0vL8k/canva.jpg" alt="Canva">
+        <div class="card-body">
+          <h3>Canva Pro</h3>
+          <p class="price">৳৯৯</p>
+          <a href="#" class="btn">কিনুন এখনই</a>
+        </div>
+      </div>
     </div>
-</header>
+  </div>
 
+  <footer>
+    <p>© FA Premium Store | সব প্রিমিয়াম সেবা একসাথে</p>
+  </footer>
 </body>
 </html>
